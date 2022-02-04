@@ -17,6 +17,7 @@ function renderWeather(data) {
     `;
     elResult.innerHTML = null;
     elResult.insertAdjacentHTML("beforeend", html);
+    elResult.classList.remove("none")
   }
 
 
@@ -34,7 +35,7 @@ elForm.addEventListener("submit", (evt) => {
     evt.preventDefault();
 
     let value = elInput.value
-    elResult.classList.remove("none")
+
     getData(value)
 } )
 
