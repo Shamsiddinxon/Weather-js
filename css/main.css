@@ -49,9 +49,7 @@ body {
 
 .site-wrapp {
     display: flex;
-    /* flex-direction: column; */
     justify-content: space-between;
-    /* align-items: center; */
     margin: 0 auto;
     padding: 30px;
     max-width: 480px;
@@ -71,10 +69,19 @@ body {
     font-family:  Arial Rounded Mt;
     font-size: 22px;
     font-weight: 400;
-    background-color:#fff;
+    /* background-color:#fff; */
+    background-color: rgb(180, 198, 183);
     color:rgb(217, 85, 80);
     border:none;
     border-radius:4px;
+}
+
+.btn:hover {
+    opacity: 0.8;
+}
+
+.btn:active {
+    opacity: 0.6;
 }
 
 .font-wrap {
@@ -98,8 +105,8 @@ body {
 }
 
 input {
-    background-color: rgb(239, 239, 239);
-    /* background-color: rgb(76, 145, 149);  */
+    background-color: rgb(180, 198, 183);
+    /* background-color: rgb(69, 124, 163); */
     font-family:  Arial Rounded Mt;
     font-size: 22px;
     font-weight: 400;
@@ -128,7 +135,7 @@ input {
 }
 
 .harorat {
-    font-size: 45px;
+    font-size: 50px;
     /* font-weight: 700; */
     color:#fff;
     font-family:  Arial Rounded Mt;
@@ -161,7 +168,7 @@ input {
 }
 
 .icon_text {
-    font-size: 25px;
+    font-size: 30px;
     color:#fff;
     margin: 0;
     padding: 0;
